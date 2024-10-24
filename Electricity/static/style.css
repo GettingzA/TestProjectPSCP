@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav bar */
+.parent a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+/*head-Content */
+.headcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .maincontent h1{
+        text-align:center;
+        font-size:50px;
+        margin-bottom: 20px;
+        margin-top: 2rem;
+        color: #004AAD;
+    }
+
+    /*Name*/
+    .maincontent input{
+        padding: 12px ;
+        margin: 3px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .maincontent label{
+        font-size: 20px;
+        color: #004AAD;
+        font-weight: 500;
+    }
+
+    .maincontent p{
+        width: 210px; 
+        height: 20px; 
+        padding: 25px;      
+        border: 2px solid #000; 
+        background-color: #f0f0f0; 
+        font-size: 20px;  
+        text-align: center; 
+        line-height: -10;  
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .Watt_BTU {
+        padding: 13.5px;
+        font-weight: 500;
+
+    }
+
+}
