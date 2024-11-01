@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav bar */
+.parent a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+/*head-Content */
+.headcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .maincontent h1{
+        text-align:center;
+        font-size:50px;
+        margin-bottom: 20px;
+        margin-top: 2rem;
+        color: #004AAD;
+    }
+
+    /*Name*/
+    .maincontent input{
+        padding: 12px ;
+        margin: 3px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .maincontent label{
+        font-size: 20px;
+        color: #004AAD;
+        font-weight: 500;
+    }
+
+    .maincontent p{
+        width: 210px; 
+        height: 20px; 
+        padding: 25px;      
+        border: 2px solid #000; 
+        background-color: #f0f0f0; 
+        font-size: 20px;  
+        text-align: center; 
+        line-height: -10;  
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .Watt_BTU {
+        padding: 13.5px;
+        font-weight: 500;
+
+    }
+
+}
+button:disabled {
+    background-color: #ccc; /* สีปุ่มเมื่อไม่สามารถกดได้ */
+    cursor: not-allowed; /* เปลี่ยนรูปแบบ cursor */
+}
+
+#SEER_input {
+    display: none; /* ซ่อนช่องกรอกค่า SEER */
+}
+#guidance_text{
+    display: none;/* ซ่อนlabelของ add */
+}
+#add {
+    display: none;/* ซ่อนปุ่ม add */
+}
+
+/* ตาราง */
+
+.blog-table {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    margin: 20px 0;
+}
+
+.grid-item {
+    font-size: 18px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #0856bb;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
